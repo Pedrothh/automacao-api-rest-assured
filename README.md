@@ -9,6 +9,10 @@
 
 Este projeto é uma **automação de testes de API** utilizando **Rest-Assured** para requisições HTTP, **Cucumber** para escrita de cenários em BDD, **TestNG** para execução dos testes e **Allure** para geração de relatórios detalhados.
 
+![image](https://github.com/user-attachments/assets/789c5f95-11fc-44d4-ae58-a8138bb4cb71)
+![image](https://github.com/user-attachments/assets/d1ac43b6-91ac-409f-8a40-545dc41f4d35)
+
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Java 11+**
