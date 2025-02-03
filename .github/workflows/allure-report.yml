@@ -6,16 +6,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
-    inputs:
-      allure:
-        description: 'Generate Allure Report?'
-        required: false
-        default: 'true'
-        type: choice
-        options:
-          - true
-          - false
+
 permissions:
   contents: read
   pages: write
@@ -44,14 +35,12 @@ jobs:
 
       - name: Install Allure Commandline
         run: |
-          curl -o allure.zip -L https://github.com/allure-framework/allure2/releases/download/2.17.2/allure-2.17.2.tgz
-          tar -zxvf allure.zip
-          sudo mv allure-2.17.2 /usr/local/bin/allure
+          curl -o allure-commandline.zip -L "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.9/allure-commandline-2.13.9.zip"
+          unzip -o allure-commandline.zip -d allure
+          export PATH=$PATH:$PWD/allure/allure-2.13.9/bin
         continue-on-error: true
 
-
       - name: Generate Allure Report
-        if: ${{ env.allure == 'true' }}
         run: |
           allure generate allure-results --clean -o allure-report
           mv -f allure-report/history allure-results/history
@@ -59,9 +48,8 @@ jobs:
         continue-on-error: true
 
       - name: Deploy Allure Report to GitHub Pages
-        if: ${{ env.allure == 'true' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
-          continue-on-error: true
+        continue-on-error: true
