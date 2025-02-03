@@ -1,12 +1,12 @@
 {
-  "uid" : "b2bc10477b465393",
-  "name" : "Validar o endpoint DELETE /inativar-user/{id}",
-  "fullName" : "src/test/resources/features/users.feature:30",
-  "historyId" : "a779f89aa901ec53a10f661044ba2245",
+  "uid" : "3338125a52244cb",
+  "name" : "Validar o endpoint GET /user-info",
+  "fullName" : "src/test/resources/features/users.feature:24",
+  "historyId" : "8bbf84f7821d3eeee71535434eb014bf",
   "time" : {
-    "start" : 1738554998850,
-    "stop" : 1738554999171,
-    "duration" : 321
+    "start" : 1738555462382,
+    "stop" : 1738555462539,
+    "duration" : 157
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,23 +17,8 @@
     "steps" : [ {
       "name" : "Dado  que tenho um token válido",
       "time" : {
-        "start" : 1738554998850,
-        "stop" : 1738554998851,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Dado  que o endpoint DELETE \"/inativar-user/{id}\" está disponível com o parâmetro 2",
-      "time" : {
-        "start" : 1738554998851,
-        "stop" : 1738554998851,
+        "start" : 1738555462382,
+        "stop" : 1738555462382,
         "duration" : 0
       },
       "status" : "passed",
@@ -45,26 +30,41 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Quando  enviar a requisição DELETE",
+      "name" : "Dado  que o endpoint GET \"/user-info\" está disponível",
       "time" : {
-        "start" : 1738554998851,
-        "stop" : 1738554999162,
-        "duration" : 311
+        "start" : 1738555462382,
+        "stop" : 1738555462383,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Quando  enviar a requisição GET",
+      "time" : {
+        "start" : 1738555462383,
+        "stop" : 1738555462534,
+        "duration" : 151
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a2cac07856d9cdda",
+        "uid" : "121d562dc6ab3217",
         "name" : "Request",
-        "source" : "a2cac07856d9cdda.html",
+        "source" : "121d562dc6ab3217.html",
         "type" : "text/html",
-        "size" : 948
+        "size" : 972
       }, {
-        "uid" : "78170d795d35f736",
+        "uid" : "296bf33a567d1067",
         "name" : "HTTP/1.1 200 OK",
-        "source" : "78170d795d35f736.html",
+        "source" : "296bf33a567d1067.html",
         "type" : "text/html",
-        "size" : 865
+        "size" : 774
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -74,8 +74,8 @@
     }, {
       "name" : "Então  o código de resposta deve ser 200",
       "time" : {
-        "start" : 1738554999163,
-        "stop" : 1738554999163,
+        "start" : 1738555462535,
+        "stop" : 1738555462535,
         "duration" : 0
       },
       "status" : "passed",
@@ -89,24 +89,9 @@
     }, {
       "name" : "E  a estrutura de resposta deve estar correta",
       "time" : {
-        "start" : 1738554999163,
-        "stop" : 1738554999170,
-        "duration" : 7
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "E  a mensagem da resposta deve ser \"Conta inativada com sucesso.\"",
-      "time" : {
-        "start" : 1738554999171,
-        "stop" : 1738554999171,
-        "duration" : 0
+        "start" : 1738555462535,
+        "stop" : 1738555462539,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -119,7 +104,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 6,
+    "stepsCount" : 5,
     "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -130,22 +115,22 @@
     "value" : "users"
   }, {
     "name" : "host",
-    "value" : "fv-az1306-412"
+    "value" : "fv-az807-116"
   }, {
     "name" : "thread",
-    "value" : "1973@fv-az1306-412.main(1)"
+    "value" : "1952@fv-az807-116.main(1)"
   }, {
     "name" : "feature",
     "value" : "Users"
   }, {
     "name" : "story",
-    "value" : "Validar o endpoint DELETE /inativar-user/{id}"
+    "value" : "Validar o endpoint GET /user-info"
   }, {
     "name" : "suite",
     "value" : "Users"
   }, {
     "name" : "testClass",
-    "value" : "Validar o endpoint DELETE /inativar-user/{id}"
+    "value" : "Validar o endpoint GET /user-info"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -184,17 +169,17 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "78c06ccb668be105",
+        "uid" : "d93d564e706a782b",
         "status" : "passed",
         "time" : {
-          "start" : 1738554998850,
-          "stop" : 1738554999171,
-          "duration" : 321
+          "start" : 1738555462382,
+          "stop" : 1738555462539,
+          "duration" : 157
         }
       } ]
     },
     "tags" : [ "users" ]
   },
-  "source" : "b2bc10477b465393.json",
+  "source" : "3338125a52244cb.json",
   "parameterValues" : [ ]
 }

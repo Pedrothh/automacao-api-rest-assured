@@ -1,12 +1,12 @@
 {
-  "uid" : "7e41c5175eb71d",
-  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
-  "fullName" : "src/test/resources/features/auth.feature:28",
-  "historyId" : "eec969d89ac8291082f1fe81789da04b",
+  "uid" : "6184d5d417727429",
+  "name" : "Validar o endpoint GET /users",
+  "fullName" : "src/test/resources/features/users.feature:8",
+  "historyId" : "e4de4f2a16a7e8d52f9d2126ff6f97e7",
   "time" : {
-    "start" : 1738554997298,
-    "stop" : 1738554997675,
-    "duration" : 377
+    "start" : 1738555461606,
+    "stop" : 1738555461931,
+    "duration" : 325
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,11 +15,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Dado  que o endpoint POST \"/login\" está disponível",
+      "name" : "Dado  que tenho um token válido",
       "time" : {
-        "start" : 1738554997298,
-        "stop" : 1738554997299,
-        "duration" : 1
+        "start" : 1738555461606,
+        "stop" : 1738555461606,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,44 +30,53 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Quando  enviar a requisição POST com tags alteradas",
+      "name" : "Dado  que o endpoint GET \"/users\" está disponível",
       "time" : {
-        "start" : 1738554997299,
-        "stop" : 1738554997673,
-        "duration" : 374
+        "start" : 1738555461607,
+        "stop" : 1738555461607,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Quando  enviar a requisição GET",
+      "time" : {
+        "start" : 1738555461607,
+        "stop" : 1738555461921,
+        "duration" : 314
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "ceb3632a31d9b639",
-        "name" : "Data table",
-        "source" : "ceb3632a31d9b639.csv",
-        "type" : "text/tab-separated-values",
-        "size" : 36
-      }, {
-        "uid" : "497ad1c3db9cf501",
+        "uid" : "c404df5139ec8966",
         "name" : "Request",
-        "source" : "497ad1c3db9cf501.html",
+        "source" : "c404df5139ec8966.html",
         "type" : "text/html",
-        "size" : 1100
+        "size" : 964
       }, {
-        "uid" : "2188dbca8e2edab0",
-        "name" : "HTTP/1.1 401 Unauthorized",
-        "source" : "2188dbca8e2edab0.html",
+        "uid" : "ad6e4151131ee7f5",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "ad6e4151131ee7f5.html",
         "type" : "text/html",
-        "size" : 584
+        "size" : 1432
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
-      "attachmentsCount" : 3,
+      "attachmentsCount" : 2,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Então  o código de resposta deve ser 401",
+      "name" : "Então  o código de resposta deve ser 200",
       "time" : {
-        "start" : 1738554997673,
-        "stop" : 1738554997674,
-        "duration" : 1
+        "start" : 1738555461921,
+        "stop" : 1738555461921,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,11 +87,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "E  a mensagem da resposta deve ser \"Credenciais incorretas.\"",
+      "name" : "E  a estrutura de resposta deve estar correta",
       "time" : {
-        "start" : 1738554997674,
-        "stop" : 1738554997675,
-        "duration" : 1
+        "start" : 1738555461922,
+        "stop" : 1738555461931,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,33 +104,33 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "attachmentsCount" : 3,
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "auth"
+    "value" : "users"
   }, {
     "name" : "host",
-    "value" : "fv-az1306-412"
+    "value" : "fv-az807-116"
   }, {
     "name" : "thread",
-    "value" : "1973@fv-az1306-412.main(1)"
+    "value" : "1952@fv-az807-116.main(1)"
   }, {
     "name" : "feature",
-    "value" : "Auth"
+    "value" : "Users"
   }, {
     "name" : "story",
-    "value" : "Validar o endpoint POST /login com Credenciais incorretas"
+    "value" : "Validar o endpoint GET /users"
   }, {
     "name" : "suite",
-    "value" : "Auth"
+    "value" : "Users"
   }, {
     "name" : "testClass",
-    "value" : "Validar o endpoint POST /login com Credenciais incorretas"
+    "value" : "Validar o endpoint GET /users"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -130,18 +139,15 @@
     "value" : "java"
   }, {
     "name" : "gherkin_uri",
-    "value" : "file:///home/runner/work/automacao-api-rest-assured/automacao-api-rest-assured/src/test/resources/features/auth.feature"
+    "value" : "file:///home/runner/work/automacao-api-rest-assured/automacao-api-rest-assured/src/test/resources/features/users.feature"
   }, {
     "name" : "package",
-    "value" : "src.test.resources.features.auth_feature.Auth"
+    "value" : "src.test.resources.features.users_feature.Users"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "valor",
-    "value" : "password"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -163,17 +169,17 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "89e040470cb91798",
+        "uid" : "4ae7fb8958579840",
         "status" : "passed",
         "time" : {
-          "start" : 1738554997298,
-          "stop" : 1738554997675,
-          "duration" : 377
+          "start" : 1738555461606,
+          "stop" : 1738555461931,
+          "duration" : 325
         }
       } ]
     },
-    "tags" : [ "auth" ]
+    "tags" : [ "users" ]
   },
-  "source" : "7e41c5175eb71d.json",
-  "parameterValues" : [ "password" ]
+  "source" : "6184d5d417727429.json",
+  "parameterValues" : [ ]
 }

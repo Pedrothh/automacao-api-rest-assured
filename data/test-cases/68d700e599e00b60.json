@@ -1,12 +1,12 @@
 {
-  "uid" : "b5660e92fa62b712",
-  "name" : "Validar o endpoint GET /user-info",
-  "fullName" : "src/test/resources/features/users.feature:24",
-  "historyId" : "8bbf84f7821d3eeee71535434eb014bf",
+  "uid" : "68d700e599e00b60",
+  "name" : "Validar o endpoint PUT /reativar-user/{id}",
+  "fullName" : "src/test/resources/features/users.feature:37",
+  "historyId" : "e969eec45b8c2b66584fbbd1a09b0bbc",
   "time" : {
-    "start" : 1738554998689,
-    "stop" : 1738554998845,
-    "duration" : 156
+    "start" : 1738555462766,
+    "stop" : 1738555463100,
+    "duration" : 334
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,8 +17,8 @@
     "steps" : [ {
       "name" : "Dado  que tenho um token válido",
       "time" : {
-        "start" : 1738554998689,
-        "stop" : 1738554998689,
+        "start" : 1738555462767,
+        "stop" : 1738555462767,
         "duration" : 0
       },
       "status" : "passed",
@@ -30,11 +30,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Dado  que o endpoint GET \"/user-info\" está disponível",
+      "name" : "Dado  que o endpoint PUT \"/reativar-user/{id}\" está disponível com o parâmetro 2",
       "time" : {
-        "start" : 1738554998690,
-        "stop" : 1738554998690,
-        "duration" : 0
+        "start" : 1738555462767,
+        "stop" : 1738555462768,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,26 +45,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Quando  enviar a requisição GET",
+      "name" : "Quando  enviar a requisição PUT",
       "time" : {
-        "start" : 1738554998690,
-        "stop" : 1738554998840,
-        "duration" : 150
+        "start" : 1738555462768,
+        "stop" : 1738555463092,
+        "duration" : 324
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a5107d4d96ab6a7a",
+        "uid" : "f051be2982a23c49",
         "name" : "Request",
-        "source" : "a5107d4d96ab6a7a.html",
+        "source" : "f051be2982a23c49.html",
         "type" : "text/html",
-        "size" : 972
+        "size" : 942
       }, {
-        "uid" : "45a9612f6d73845d",
+        "uid" : "8132d39acb841572",
         "name" : "HTTP/1.1 200 OK",
-        "source" : "45a9612f6d73845d.html",
+        "source" : "8132d39acb841572.html",
         "type" : "text/html",
-        "size" : 774
+        "size" : 865
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -74,9 +74,9 @@
     }, {
       "name" : "Então  o código de resposta deve ser 200",
       "time" : {
-        "start" : 1738554998840,
-        "stop" : 1738554998841,
-        "duration" : 1
+        "start" : 1738555463092,
+        "stop" : 1738555463092,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -89,9 +89,24 @@
     }, {
       "name" : "E  a estrutura de resposta deve estar correta",
       "time" : {
-        "start" : 1738554998841,
-        "stop" : 1738554998845,
-        "duration" : 4
+        "start" : 1738555463093,
+        "stop" : 1738555463099,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a mensagem da resposta deve ser \"Conta reativada com sucesso.\"",
+      "time" : {
+        "start" : 1738555463100,
+        "stop" : 1738555463100,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -104,7 +119,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
+    "stepsCount" : 6,
     "attachmentsCount" : 2,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -115,22 +130,22 @@
     "value" : "users"
   }, {
     "name" : "host",
-    "value" : "fv-az1306-412"
+    "value" : "fv-az807-116"
   }, {
     "name" : "thread",
-    "value" : "1973@fv-az1306-412.main(1)"
+    "value" : "1952@fv-az807-116.main(1)"
   }, {
     "name" : "feature",
     "value" : "Users"
   }, {
     "name" : "story",
-    "value" : "Validar o endpoint GET /user-info"
+    "value" : "Validar o endpoint PUT /reativar-user/{id}"
   }, {
     "name" : "suite",
     "value" : "Users"
   }, {
     "name" : "testClass",
-    "value" : "Validar o endpoint GET /user-info"
+    "value" : "Validar o endpoint PUT /reativar-user/{id}"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -169,17 +184,17 @@
         "total" : 2
       },
       "items" : [ {
-        "uid" : "86844c1f6e2c384f",
+        "uid" : "fa81a05fd38b90cb",
         "status" : "passed",
         "time" : {
-          "start" : 1738554998689,
-          "stop" : 1738554998845,
-          "duration" : 156
+          "start" : 1738555462766,
+          "stop" : 1738555463100,
+          "duration" : 334
         }
       } ]
     },
     "tags" : [ "users" ]
   },
-  "source" : "b5660e92fa62b712.json",
+  "source" : "68d700e599e00b60.json",
   "parameterValues" : [ ]
 }
