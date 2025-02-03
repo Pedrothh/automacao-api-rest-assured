@@ -16,10 +16,14 @@ Funcionalidade: Auth
     E a estrutura de resposta deve estar correta
     E a mensagem da resposta deve ser "Senha atualizada com sucesso."
 
-  Cenário: Validar o endpoint POST /login com Credenciais incorretas
+  Esquema do Cenário: Validar o endpoint POST /login com Credenciais incorretas
     Dado que o endpoint POST "/login" está disponível
     Quando enviar a requisição POST com tags alteradas
       | Propriedade | Valor    |
-      | password    | password |
+      | password    | <valor>  |
     Então o código de resposta deve ser 401
     E a mensagem da resposta deve ser "Credenciais incorretas."
+    Exemplos:
+        | valor    |
+        | password |
+        | empty    |

@@ -87,7 +87,8 @@ public class BaseSteps {
 
     protected static JsonObject alterarTags(JsonObject jsonObject, Map<String, String> tagsAlvo) {
         Map<String, Supplier<Object>> geradores = Map.of(
-                "password", () -> faker.number().digits(9)
+                "password", () -> faker.number().digits(9),
+                "empty", () -> ""
         );
 
         for (String chave : jsonObject.keySet()) {
