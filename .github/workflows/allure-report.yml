@@ -59,5 +59,4 @@ jobs:
         with:
           github_token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
           publish_dir: ./allure-report
-          keep_files: true
         continue-on-error: true
