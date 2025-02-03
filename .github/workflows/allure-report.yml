@@ -38,6 +38,7 @@ jobs:
           mkdir -p allure-results/history
           if git ls-remote --exit-code --heads origin gh-pages; then
             git fetch origin gh-pages --depth=1
+            git checkout gh-pages -- allure-report/history || true
             if [ -d allure-report/history ]; then
               cp -r allure-report/history allure-results/
             fi
@@ -70,4 +71,5 @@ jobs:
         with:
           github_token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}
           publish_dir: ./allure-report
+          keep_files: true
         continue-on-error: true
