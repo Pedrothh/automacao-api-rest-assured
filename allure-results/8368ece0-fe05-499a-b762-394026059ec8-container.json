@@ -1,0 +1,1 @@
+{"uuid":"8368ece0-fe05-499a-b762-394026059ec8","name":"Cenário: Validar o endpoint DELETE /inativar-user/{id}","children":["a2d01050-0ce8-4357-8fc4-e4f3f667c090"],"befores":[],"afters":[],"start":1738551730152,"stop":1738551730716}
