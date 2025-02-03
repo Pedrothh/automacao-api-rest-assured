@@ -35,8 +35,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
-          distribution: 'adoptopenjdk'
-        continue-on-error: true
+          distribution: 'temurin'
 
       - name: Build and run tests
         run: |
@@ -54,9 +53,6 @@ jobs:
       - name: Generate Allure Report
         if: ${{ env.allure == 'true' }}
         run: |
-          curl -o allure-commandline.zip -L "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.9/allure-commandline-2.13.9.zip"
-          unzip -o allure-commandline.zip -d allure
-          export PATH=$PATH:$PWD/allure/allure-2.13.9/bin
           allure generate allure-results --clean -o allure-report
           mv -f allure-report/history allure-results/history
           allure generate allure-results --clean -o allure-report
