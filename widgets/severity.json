@@ -1,0 +1,101 @@
+[ {
+  "uid" : "be1105e08bb38578",
+  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
+  "time" : {
+    "start" : 1738553801489,
+    "stop" : 1738553801797,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19f1518088092a21",
+  "name" : "Validar o endpoint GET /user-info",
+  "time" : {
+    "start" : 1738553802709,
+    "stop" : 1738553802883,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4f0e6b23fc0ba89",
+  "name" : "Validar o endpoint DELETE /inativar-user/{id}",
+  "time" : {
+    "start" : 1738553802888,
+    "stop" : 1738553803141,
+    "duration" : 253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55ccc534435890a6",
+  "name" : "Validar o endpoint POST /login",
+  "time" : {
+    "start" : 1738553798114,
+    "stop" : 1738553800923,
+    "duration" : 2809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26f3bc115c0546b4",
+  "name" : "Validar o endpoint GET /users",
+  "time" : {
+    "start" : 1738553802136,
+    "stop" : 1738553802329,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e75f5e3afd8ddca7",
+  "name" : "Validar o endpoint GET /user/{id}",
+  "time" : {
+    "start" : 1738553802336,
+    "stop" : 1738553802529,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c83817d8b96a55bb",
+  "name" : "Validar o endpoint PUT /update-password",
+  "time" : {
+    "start" : 1738553800985,
+    "stop" : 1738553801477,
+    "duration" : 492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e21e3599fb8d57e",
+  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
+  "time" : {
+    "start" : 1738553801806,
+    "stop" : 1738553802125,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd43055b8daf7f04",
+  "name" : "Validar o endpoint PUT /reativar-user/{id}",
+  "time" : {
+    "start" : 1738553803146,
+    "stop" : 1738553803407,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5823e905ac8dcfe",
+  "name" : "Validar o endpoint GET /user/{id}",
+  "time" : {
+    "start" : 1738553802534,
+    "stop" : 1738553802703,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
