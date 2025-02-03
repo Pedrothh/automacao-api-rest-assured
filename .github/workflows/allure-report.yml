@@ -60,10 +60,7 @@ jobs:
           unzip -o allure-commandline.zip -d allure
           export PATH=$PATH:$PWD/allure/allure-2.13.9/bin
           allure generate allure-results --clean -o allure-report
-          mkdir -p allure-report/history
-          if [ -d allure-results/history ]; then
-            cp -r allure-results/history allure-report/
-          fi
+          mv -f allure-report/history allure-results/history
           allure generate allure-results --clean -o allure-report
 
         continue-on-error: true
