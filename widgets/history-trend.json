@@ -3,17 +3,17 @@
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 11,
+    "passed" : 10,
     "unknown" : 0,
-    "total" : 11
+    "total" : 10
   }
 }, {
   "data" : {
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 9,
+    "passed" : 10,
     "unknown" : 0,
-    "total" : 9
+    "total" : 10
   }
 } ]
