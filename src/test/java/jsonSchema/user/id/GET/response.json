@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "username",
+    "inativo",
+    "role"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    },
+    "inativo": {
+      "type": "integer"
+    },
+    "role": {
+      "type": "integer"
+    }
+  }
+}
