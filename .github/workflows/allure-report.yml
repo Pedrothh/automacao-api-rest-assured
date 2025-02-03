@@ -64,6 +64,8 @@ jobs:
           if [ -d allure-results/history ]; then
             cp -r allure-results/history allure-report/
           fi
+          allure generate allure-results --clean -o allure-report
+
         continue-on-error: true
 
       - name: Deploy Allure Report to GitHub Pages
