@@ -40,7 +40,12 @@
           <execution>
             <goals>
               <goal>serve</goal>
+              <goal>report</goal> <!-- Adiciona o goal 'report' se você quiser gerar o relatório -->
             </goals>
+            <configuration>
+              <!-- Configura o diretório onde o relatório será gerado -->
+              <reportDirectory>${project.build.directory}/allure-report</reportDirectory>
+            </configuration>
           </execution>
         </executions>
       </plugin>
