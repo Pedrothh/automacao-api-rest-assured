@@ -1,0 +1,182 @@
+{
+  "uid" : "faf8b756a12a25bb",
+  "name" : "Validar o endpoint POST /login",
+  "fullName" : "src/test/resources/features/auth.feature:5",
+  "historyId" : "629bdd0b67ecd8cb3d014e51a1499c48",
+  "time" : {
+    "start" : 1739283283866,
+    "stop" : 1739283286845,
+    "duration" : 2979
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que o endpoint POST \"/login\" está disponível",
+      "time" : {
+        "start" : 1739283283868,
+        "stop" : 1739283286231,
+        "duration" : 2363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c60f4dcf172628fc",
+        "name" : "Request",
+        "source" : "c60f4dcf172628fc.html",
+        "type" : "text/html",
+        "size" : 690
+      }, {
+        "uid" : "88e63ac330b8a3cb",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "88e63ac330b8a3cb.html",
+        "type" : "text/html",
+        "size" : 735
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Quando  enviar a requisição POST",
+      "time" : {
+        "start" : 1739283286232,
+        "stop" : 1739283286680,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6aea4b3a8e816724",
+        "name" : "Request",
+        "source" : "6aea4b3a8e816724.html",
+        "type" : "text/html",
+        "size" : 1092
+      }, {
+        "uid" : "b46a188a88ce1c66",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "b46a188a88ce1c66.html",
+        "type" : "text/html",
+        "size" : 734
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então  o código de resposta deve ser 200",
+      "time" : {
+        "start" : 1739283286680,
+        "stop" : 1739283286683,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a estrutura de resposta deve estar correta",
+      "time" : {
+        "start" : 1739283286683,
+        "stop" : 1739283286844,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "auth"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1670-939"
+  }, {
+    "name" : "thread",
+    "value" : "1939@fv-az1670-939.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Auth"
+  }, {
+    "name" : "story",
+    "value" : "Validar o endpoint POST /login"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar o endpoint POST /login"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/automacao-api-rest-assured/automacao-api-rest-assured/src/test/resources/features/auth.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.auth_feature.Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "79bbce66b140425f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1739283283866,
+          "stop" : 1739283286845,
+          "duration" : 2979
+        }
+      } ]
+    },
+    "tags" : [ "auth" ]
+  },
+  "source" : "faf8b756a12a25bb.json",
+  "parameterValues" : [ ]
+}
