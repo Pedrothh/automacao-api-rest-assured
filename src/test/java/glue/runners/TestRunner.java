@@ -8,7 +8,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
         glue = "glue",
         plugin = {
                 "pretty",
-                "html:target/cucumber-reports",
+                "json:target/cucumber-report/cucumber.json",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         tags = ""
