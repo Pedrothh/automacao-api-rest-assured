@@ -5,130 +5,130 @@
     "children" : [ {
       "children" : [ {
         "name" : "Validar o endpoint POST /login",
-        "uid" : "be4de90351b3f905",
+        "uid" : "b818e7060eaa85a3",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456070563,
-          "stop" : 1739456073401,
-          "duration" : 2838
+          "start" : 1739593634344,
+          "stop" : 1739593637610,
+          "duration" : 3266
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar o endpoint PUT /update-password",
-        "uid" : "74b62793fbda144f",
+        "uid" : "7765aafa41388f86",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456073457,
-          "stop" : 1739456073949,
-          "duration" : 492
+          "start" : 1739593637669,
+          "stop" : 1739593638336,
+          "duration" : 667
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar o endpoint POST /login com Credenciais incorretas",
-        "uid" : "a1904cdaee06ef81",
+        "uid" : "9a75146715d0b8d7",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456073961,
-          "stop" : 1739456074285,
-          "duration" : 324
+          "start" : 1739593638349,
+          "stop" : 1739593638704,
+          "duration" : 355
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "password" ]
       }, {
         "name" : "Validar o endpoint POST /login com Credenciais incorretas",
-        "uid" : "6cc03db9bd400aa8",
+        "uid" : "f8fd1a80e405d3a8",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456074296,
-          "stop" : 1739456074611,
-          "duration" : 315
+          "start" : 1739593638715,
+          "stop" : 1739593639012,
+          "duration" : 297
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "empty" ]
       }, {
         "name" : "Validar o endpoint GET /users",
-        "uid" : "d6436a61cf558c29",
+        "uid" : "44a1e78c7082d327",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456074623,
-          "stop" : 1739456074815,
-          "duration" : 192
+          "start" : 1739593639021,
+          "stop" : 1739593639215,
+          "duration" : 194
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar o endpoint GET /user/{id}",
-        "uid" : "fc182c8f799b5e07",
+        "uid" : "26f4755e67a4a291",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456074821,
-          "stop" : 1739456075020,
-          "duration" : 199
+          "start" : 1739593639220,
+          "stop" : 1739593639406,
+          "duration" : 186
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1" ]
       }, {
         "name" : "Validar o endpoint GET /user/{id}",
-        "uid" : "983974c8b2af45d9",
+        "uid" : "109c37296c4f58ce",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456075025,
-          "stop" : 1739456075247,
-          "duration" : 222
+          "start" : 1739593639411,
+          "stop" : 1739593639580,
+          "duration" : 169
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2" ]
       }, {
         "name" : "Validar o endpoint GET /user-info",
-        "uid" : "8c38d083d3e0a3ab",
+        "uid" : "ab70c7c168c4b040",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456075252,
-          "stop" : 1739456075440,
-          "duration" : 188
+          "start" : 1739593639585,
+          "stop" : 1739593639898,
+          "duration" : 313
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar o endpoint DELETE /inativar-user/{id}",
-        "uid" : "2f2ce3aca26554cf",
+        "uid" : "9f0871cc8ec2c63c",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456075445,
-          "stop" : 1739456075670,
-          "duration" : 225
+          "start" : 1739593639902,
+          "stop" : 1739593640137,
+          "duration" : 235
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Validar o endpoint PUT /reativar-user/{id}",
-        "uid" : "6d64610cd88ad84c",
+        "uid" : "93462234433dae57",
         "parentUid" : "9c3b5bbf2e0a9a9eb5860e5891c88395",
         "status" : "passed",
         "time" : {
-          "start" : 1739456075674,
-          "stop" : 1739456075912,
-          "duration" : 238
+          "start" : 1739593640141,
+          "stop" : 1739593640375,
+          "duration" : 234
         },
         "flaky" : false,
         "newFailed" : false,
