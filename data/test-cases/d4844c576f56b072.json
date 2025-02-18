@@ -1,0 +1,179 @@
+{
+  "uid" : "d4844c576f56b072",
+  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
+  "fullName" : "src/test/resources/features/auth.feature:29",
+  "historyId" : "e4e707b7bae066b8b5f7006ccc98d9da",
+  "time" : {
+    "start" : 1739888068231,
+    "stop" : 1739888068515,
+    "duration" : 284
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que o endpoint POST \"/login\" está disponível",
+      "time" : {
+        "start" : 1739888068231,
+        "stop" : 1739888068231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Quando  enviar a requisição POST com tags alteradas",
+      "time" : {
+        "start" : 1739888068231,
+        "stop" : 1739888068513,
+        "duration" : 282
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "23573e3c77da8f0e",
+        "name" : "Data table",
+        "source" : "23573e3c77da8f0e.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 33
+      }, {
+        "uid" : "d83b6d207447c87e",
+        "name" : "Request",
+        "source" : "d83b6d207447c87e.html",
+        "type" : "text/html",
+        "size" : 1082
+      }, {
+        "uid" : "58f65796aa4d9459",
+        "name" : "HTTP/1.1 401 Unauthorized",
+        "source" : "58f65796aa4d9459.html",
+        "type" : "text/html",
+        "size" : 634
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então  o código de resposta deve ser 401",
+      "time" : {
+        "start" : 1739888068514,
+        "stop" : 1739888068514,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a mensagem da resposta deve ser \"Credenciais incorretas.\"",
+      "time" : {
+        "start" : 1739888068514,
+        "stop" : 1739888068515,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "auth"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1044-908"
+  }, {
+    "name" : "thread",
+    "value" : "1931@fv-az1044-908.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Auth"
+  }, {
+    "name" : "story",
+    "value" : "Validar o endpoint POST /login com Credenciais incorretas"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar o endpoint POST /login com Credenciais incorretas"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/automacao-api-rest-assured/automacao-api-rest-assured/src/test/resources/features/auth.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.auth_feature.Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "valor",
+    "value" : "empty"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f8d2565e26406b4d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1739888068231,
+          "stop" : 1739888068515,
+          "duration" : 284
+        }
+      } ]
+    },
+    "tags" : [ "auth" ]
+  },
+  "source" : "d4844c576f56b072.json",
+  "parameterValues" : [ "empty" ]
+}
