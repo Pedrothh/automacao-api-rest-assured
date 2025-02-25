@@ -1,0 +1,188 @@
+{
+  "uid" : "91fcda0b15c53d06",
+  "name" : "Validar o endpoint GET /user/{id}",
+  "fullName" : "src/test/resources/features/users.feature:21",
+  "historyId" : "beb7db498b2ebdd36c118794bb5d7e18",
+  "time" : {
+    "start" : 1740492899508,
+    "stop" : 1740492899811,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que tenho um token válido",
+      "time" : {
+        "start" : 1740492899508,
+        "stop" : 1740492899509,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Dado  que o endpoint GET \"/user/{id}\" está disponível com o parâmetro 1",
+      "time" : {
+        "start" : 1740492899509,
+        "stop" : 1740492899509,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Quando  enviar a requisição GET",
+      "time" : {
+        "start" : 1740492899510,
+        "stop" : 1740492899805,
+        "duration" : 295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c39ed7ce3b7c23a",
+        "name" : "Request",
+        "source" : "c39ed7ce3b7c23a.html",
+        "type" : "text/html",
+        "size" : 966
+      }, {
+        "uid" : "80be14a1e19901ad",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "80be14a1e19901ad.html",
+        "type" : "text/html",
+        "size" : 693
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então  o código de resposta deve ser 200",
+      "time" : {
+        "start" : 1740492899805,
+        "stop" : 1740492899806,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a estrutura de resposta deve estar correta",
+      "time" : {
+        "start" : 1740492899806,
+        "stop" : 1740492899811,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "users"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1779-524"
+  }, {
+    "name" : "thread",
+    "value" : "1935@fv-az1779-524.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Users"
+  }, {
+    "name" : "story",
+    "value" : "Validar o endpoint GET /user/{id}"
+  }, {
+    "name" : "suite",
+    "value" : "Users"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar o endpoint GET /user/{id}"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/automacao-api-rest-assured/automacao-api-rest-assured/src/test/resources/features/users.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.users_feature.Users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d4530520d4e556ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740492899508,
+          "stop" : 1740492899811,
+          "duration" : 303
+        }
+      } ]
+    },
+    "tags" : [ "users" ]
+  },
+  "source" : "91fcda0b15c53d06.json",
+  "parameterValues" : [ "1" ]
+}
