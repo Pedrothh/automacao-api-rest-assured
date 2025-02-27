@@ -1,0 +1,200 @@
+{
+  "uid" : "bb41fffaad0ead57",
+  "name" : "Validar o endpoint PUT /update-password",
+  "fullName" : "src/test/resources/features/auth.feature:11",
+  "historyId" : "5f4ecc012f771380ac24ccc1f4471e67",
+  "time" : {
+    "start" : 1740665711601,
+    "stop" : 1740665712157,
+    "duration" : 556
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que tenho um token válido",
+      "time" : {
+        "start" : 1740665711601,
+        "stop" : 1740665711601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  que o endpoint PUT \"/update-password\" está disponível",
+      "time" : {
+        "start" : 1740665711602,
+        "stop" : 1740665711602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Quando  enviar a requisição PUT",
+      "time" : {
+        "start" : 1740665711602,
+        "stop" : 1740665712150,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "97871030dd584f55",
+        "name" : "Request",
+        "source" : "97871030dd584f55.html",
+        "type" : "text/html",
+        "size" : 1130
+      }, {
+        "uid" : "3d044a62124e57c2",
+        "name" : "HTTP/1.1 201 Created",
+        "source" : "3d044a62124e57c2.html",
+        "type" : "text/html",
+        "size" : 640
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então  o código de resposta deve ser 201",
+      "time" : {
+        "start" : 1740665712150,
+        "stop" : 1740665712151,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a estrutura de resposta deve estar correta",
+      "time" : {
+        "start" : 1740665712151,
+        "stop" : 1740665712156,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a mensagem da resposta deve ser \"Senha atualizada com sucesso.\"",
+      "time" : {
+        "start" : 1740665712156,
+        "stop" : 1740665712156,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "auth"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1278-612"
+  }, {
+    "name" : "thread",
+    "value" : "1927@fv-az1278-612.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Auth"
+  }, {
+    "name" : "story",
+    "value" : "Validar o endpoint PUT /update-password"
+  }, {
+    "name" : "suite",
+    "value" : "Auth"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar o endpoint PUT /update-password"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/automacao-api-rest-assured/automacao-api-rest-assured/src/test/resources/features/auth.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.auth_feature.Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4c52271000ca4666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740665711601,
+          "stop" : 1740665712157,
+          "duration" : 556
+        }
+      } ]
+    },
+    "tags" : [ "auth" ]
+  },
+  "source" : "bb41fffaad0ead57.json",
+  "parameterValues" : [ ]
+}
