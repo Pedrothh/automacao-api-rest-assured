@@ -1,100 +1,100 @@
 [ {
-  "uid" : "930aaf5cf75bf08c",
-  "name" : "Validar o endpoint DELETE /inativar-user/{id}",
+  "uid" : "4fa0a51948bf2cba",
+  "name" : "Validar o endpoint GET /user-info",
   "time" : {
-    "start" : 1741702582556,
-    "stop" : 1741702582799,
-    "duration" : 243
+    "start" : 1741875314565,
+    "stop" : 1741875314730,
+    "duration" : 165
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "749b0bdf0ac83f79",
+  "uid" : "5c21454b83f2da78",
+  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
+  "time" : {
+    "start" : 1741875313650,
+    "stop" : 1741875313931,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "466d29fc841e3e03",
   "name" : "Validar o endpoint GET /user/{id}",
   "time" : {
-    "start" : 1741702582064,
-    "stop" : 1741702582310,
-    "duration" : 246
+    "start" : 1741875314353,
+    "stop" : 1741875314559,
+    "duration" : 206
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "97d4c5559bd2a62c",
+  "uid" : "96bdf6e9b7702b5c",
   "name" : "Validar o endpoint PUT /reativar-user/{id}",
   "time" : {
-    "start" : 1741702582803,
-    "stop" : 1741702583048,
-    "duration" : 245
+    "start" : 1741875314941,
+    "stop" : 1741875315193,
+    "duration" : 252
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "971e709190f4c118",
+  "uid" : "3487d969569ed07c",
   "name" : "Validar o endpoint GET /user/{id}",
   "time" : {
-    "start" : 1741702581849,
-    "stop" : 1741702582058,
+    "start" : 1741875314158,
+    "stop" : 1741875314347,
+    "duration" : 189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "735459b13ffd26dd",
+  "name" : "Validar o endpoint PUT /update-password",
+  "time" : {
+    "start" : 1741875312797,
+    "stop" : 1741875313333,
+    "duration" : 536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74cb01d11f3e54e",
+  "name" : "Validar o endpoint POST /login",
+  "time" : {
+    "start" : 1741875309796,
+    "stop" : 1741875312747,
+    "duration" : 2951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc58e75d6b2c9fb",
+  "name" : "Validar o endpoint GET /users",
+  "time" : {
+    "start" : 1741875313943,
+    "stop" : 1741875314152,
     "duration" : 209
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5565c76da363770d",
+  "uid" : "b75bf3352920b6c2",
   "name" : "Validar o endpoint POST /login com Credenciais incorretas",
   "time" : {
-    "start" : 1741702581259,
-    "stop" : 1741702581584,
-    "duration" : 325
+    "start" : 1741875313344,
+    "stop" : 1741875313643,
+    "duration" : 299
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c09e94002ffb5708",
-  "name" : "Validar o endpoint GET /user-info",
+  "uid" : "c99931207cb4842d",
+  "name" : "Validar o endpoint DELETE /inativar-user/{id}",
   "time" : {
-    "start" : 1741702582315,
-    "stop" : 1741702582551,
-    "duration" : 236
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5cf735b4f4587f26",
-  "name" : "Validar o endpoint PUT /update-password",
-  "time" : {
-    "start" : 1741702580397,
-    "stop" : 1741702580883,
-    "duration" : 486
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb4a687694dcd7bc",
-  "name" : "Validar o endpoint GET /users",
-  "time" : {
-    "start" : 1741702581596,
-    "stop" : 1741702581843,
-    "duration" : 247
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78860b5270b84084",
-  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
-  "time" : {
-    "start" : 1741702580895,
-    "stop" : 1741702581250,
-    "duration" : 355
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc78deb143fce535",
-  "name" : "Validar o endpoint POST /login",
-  "time" : {
-    "start" : 1741702577368,
-    "stop" : 1741702580345,
-    "duration" : 2977
+    "start" : 1741875314734,
+    "stop" : 1741875314936,
+    "duration" : 202
   },
   "status" : "passed",
   "severity" : "normal"
