@@ -5,9 +5,9 @@
     "name" : "Users",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 6,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 6
     }
@@ -16,9 +16,9 @@
     "name" : "Auth",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 4
     }

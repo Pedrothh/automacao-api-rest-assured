@@ -2,270 +2,290 @@
   "629bdd0b67ecd8cb3d014e51a1499c48" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "dc666e15b52708c6",
-      "status" : "passed",
+      "uid" : "8cbbfac76e881867",
+      "status" : "broken",
+      "statusDetails" : "java.lang.ExceptionInInitializerError",
       "time" : {
-        "start" : 1747318641899,
-        "stop" : 1747318645078,
-        "duration" : 3179
+        "start" : 1747750619208,
+        "stop" : 1747750621065,
+        "duration" : 1857
       }
     }, {
-      "uid" : "90afcbda36096ed3",
-      "status" : "passed",
+      "uid" : "53d7ab5a10116e0b",
+      "status" : "broken",
+      "statusDetails" : "java.lang.ExceptionInInitializerError",
       "time" : {
-        "start" : 1747318641899,
-        "stop" : 1747318645078,
-        "duration" : 3179
+        "start" : 1747750619208,
+        "stop" : 1747750621065,
+        "duration" : 1857
       }
     } ]
   },
   "8509cb1fa42ab1e6d88d3f40e52d7851" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "c8200109d4a9b32",
-      "status" : "passed",
+      "uid" : "874f3da979895e3a",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646909,
-        "stop" : 1747318647239,
-        "duration" : 330
+        "start" : 1747750621222,
+        "stop" : 1747750621226,
+        "duration" : 4
       }
     }, {
-      "uid" : "834faacb200a2534",
-      "status" : "passed",
+      "uid" : "51364b17b1721a0f",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646909,
-        "stop" : 1747318647239,
-        "duration" : 330
+        "start" : 1747750621222,
+        "stop" : 1747750621226,
+        "duration" : 4
       }
     } ]
   },
   "8bbf84f7821d3eeee71535434eb014bf" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "210e003c0e2aef6a",
-      "status" : "passed",
+      "uid" : "b276b92c218b1c6a",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318647243,
-        "stop" : 1747318647446,
-        "duration" : 203
+        "start" : 1747750621231,
+        "stop" : 1747750621236,
+        "duration" : 5
       }
     }, {
-      "uid" : "1fe1825c5a6e69cb",
-      "status" : "passed",
+      "uid" : "85a80453d4c30d6b",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318647243,
-        "stop" : 1747318647446,
-        "duration" : 203
+        "start" : 1747750621231,
+        "stop" : 1747750621236,
+        "duration" : 5
       }
     } ]
   },
   "beb7db498b2ebdd36c118794bb5d7e18" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "82e360fd11c9266b",
-      "status" : "passed",
+      "uid" : "b5b58474277c2dd4",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646702,
-        "stop" : 1747318646904,
-        "duration" : 202
+        "start" : 1747750621207,
+        "stop" : 1747750621215,
+        "duration" : 8
       }
     }, {
-      "uid" : "dbdf0ff1f24453d4",
-      "status" : "passed",
+      "uid" : "403d478a927463f1",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646702,
-        "stop" : 1747318646904,
-        "duration" : 202
+        "start" : 1747750621207,
+        "stop" : 1747750621215,
+        "duration" : 8
       }
     } ]
   },
   "a779f89aa901ec53a10f661044ba2245" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "88520ade40c33783",
-      "status" : "passed",
+      "uid" : "7b093950ff9d368c",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318647451,
-        "stop" : 1747318647817,
-        "duration" : 366
+        "start" : 1747750621246,
+        "stop" : 1747750621249,
+        "duration" : 3
       }
     }, {
-      "uid" : "584e621988811614",
-      "status" : "passed",
+      "uid" : "896a0741ffe9f3ed",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318647451,
-        "stop" : 1747318647817,
-        "duration" : 366
+        "start" : 1747750621246,
+        "stop" : 1747750621249,
+        "duration" : 3
       }
     } ]
   },
   "eec969d89ac8291082f1fe81789da04b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "6450c4be4d435aa9",
-      "status" : "passed",
+      "uid" : "9d2a20c9031d6746",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318645645,
-        "stop" : 1747318646054,
-        "duration" : 409
+        "start" : 1747750621150,
+        "stop" : 1747750621164,
+        "duration" : 14
       }
     }, {
-      "uid" : "cc68cbc4b27a5633",
-      "status" : "passed",
+      "uid" : "5a55b7ff540a47fa",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318645645,
-        "stop" : 1747318646054,
-        "duration" : 409
+        "start" : 1747750621150,
+        "stop" : 1747750621164,
+        "duration" : 14
       }
     } ]
   },
   "e4e707b7bae066b8b5f7006ccc98d9da" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "4e01ca950ed9177f",
-      "status" : "passed",
+      "uid" : "b414405d3defc38e",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646064,
-        "stop" : 1747318646339,
-        "duration" : 275
+        "start" : 1747750621175,
+        "stop" : 1747750621181,
+        "duration" : 6
       }
     }, {
-      "uid" : "8f7936b9f2489d83",
-      "status" : "passed",
+      "uid" : "737b3b40854267f8",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646064,
-        "stop" : 1747318646339,
-        "duration" : 275
+        "start" : 1747750621175,
+        "stop" : 1747750621181,
+        "duration" : 6
       }
     } ]
   },
   "e4de4f2a16a7e8d52f9d2126ff6f97e7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "52fea6f41eb10840",
-      "status" : "passed",
+      "uid" : "ed98471894fb9c12",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646350,
-        "stop" : 1747318646697,
-        "duration" : 347
+        "start" : 1747750621196,
+        "stop" : 1747750621200,
+        "duration" : 4
       }
     }, {
-      "uid" : "5e89b126752d8f91",
-      "status" : "passed",
+      "uid" : "d4c001b3097c4733",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318646350,
-        "stop" : 1747318646697,
-        "duration" : 347
+        "start" : 1747750621196,
+        "stop" : 1747750621200,
+        "duration" : 4
       }
     } ]
   },
   "5f4ecc012f771380ac24ccc1f4471e67" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "578dbfb79585a2db",
-      "status" : "passed",
+      "uid" : "cdc065ffb3df00b8",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318645133,
-        "stop" : 1747318645634,
-        "duration" : 501
+        "start" : 1747750621122,
+        "stop" : 1747750621132,
+        "duration" : 10
       }
     }, {
-      "uid" : "c9b28d8468d388e0",
-      "status" : "passed",
+      "uid" : "b30642dc6a8f7c86",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318645133,
-        "stop" : 1747318645634,
-        "duration" : 501
+        "start" : 1747750621122,
+        "stop" : 1747750621132,
+        "duration" : 10
       }
     } ]
   },
   "e969eec45b8c2b66584fbbd1a09b0bbc" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     },
     "items" : [ {
-      "uid" : "f25b79b69685e460",
-      "status" : "passed",
+      "uid" : "3145cd0163c8b498",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318647821,
-        "stop" : 1747318648184,
-        "duration" : 363
+        "start" : 1747750621255,
+        "stop" : 1747750621263,
+        "duration" : 8
       }
     }, {
-      "uid" : "a87e66b57eef8d82",
-      "status" : "passed",
+      "uid" : "722d3337092864e7",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class glue.steps.CommomSteps",
       "time" : {
-        "start" : 1747318647821,
-        "stop" : 1747318648184,
-        "duration" : 363
+        "start" : 1747750621255,
+        "stop" : 1747750621263,
+        "duration" : 8
       }
     } ]
   }
