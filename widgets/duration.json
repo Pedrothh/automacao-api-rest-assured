@@ -1,100 +1,100 @@
 [ {
-  "uid" : "3daeabe0b09ab8bf",
-  "name" : "Validar o endpoint GET /user-info",
+  "uid" : "9426f8738b0c2f7e",
+  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
   "time" : {
-    "start" : 1768446199828,
-    "stop" : 1768446199835,
-    "duration" : 7
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2db1bb65b5fe7ae6",
-  "name" : "Validar o endpoint GET /users",
-  "time" : {
-    "start" : 1768446199789,
-    "stop" : 1768446199794,
+    "start" : 1774326195407,
+    "stop" : 1774326195412,
     "duration" : 5
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "231e2ec7d16753af",
-  "name" : "Validar o endpoint POST /login com Credenciais incorretas",
+  "uid" : "4c881ba992bab6f3",
+  "name" : "Validar o endpoint GET /user-info",
   "time" : {
-    "start" : 1768446199750,
-    "stop" : 1768446199757,
-    "duration" : 7
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "dee1c3c582141d4",
-  "name" : "Validar o endpoint PUT /update-password",
-  "time" : {
-    "start" : 1768446199731,
-    "stop" : 1768446199738,
-    "duration" : 7
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "87a2e8145dd12495",
-  "name" : "Validar o endpoint DELETE /inativar-user/{id}",
-  "time" : {
-    "start" : 1768446199840,
-    "stop" : 1768446199843,
+    "start" : 1774326195457,
+    "stop" : 1774326195460,
     "duration" : 3
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "24df0b81cb635c56",
-  "name" : "Validar o endpoint GET /user/{id}",
+  "uid" : "967e5a008ed96360",
+  "name" : "Validar o endpoint PUT /reativar-user/{id}",
   "time" : {
-    "start" : 1768446199815,
-    "stop" : 1768446199823,
-    "duration" : 8
+    "start" : 1774326195473,
+    "stop" : 1774326195480,
+    "duration" : 7
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "f7be32b8128e1e8b",
-  "name" : "Validar o endpoint PUT /reativar-user/{id}",
+  "uid" : "4c8f38514cbc9c21",
+  "name" : "Validar o endpoint DELETE /inativar-user/{id}",
   "time" : {
-    "start" : 1768446199849,
-    "stop" : 1768446199853,
+    "start" : 1774326195465,
+    "stop" : 1774326195469,
     "duration" : 4
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "bc3d710de056e494",
+  "uid" : "73038cc3bb9c7ce2",
+  "name" : "Validar o endpoint GET /user/{id}",
+  "time" : {
+    "start" : 1774326195447,
+    "stop" : 1774326195452,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "840a2fc9326e6d8f",
   "name" : "Validar o endpoint POST /login com Credenciais incorretas",
   "time" : {
-    "start" : 1768446199766,
-    "stop" : 1768446199772,
+    "start" : 1774326195387,
+    "stop" : 1774326195398,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "de243af75a7603d8",
+  "name" : "Validar o endpoint POST /login",
+  "time" : {
+    "start" : 1774326193585,
+    "stop" : 1774326195312,
+    "duration" : 1727
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6e4d441951d387cb",
+  "name" : "Validar o endpoint PUT /update-password",
+  "time" : {
+    "start" : 1774326195369,
+    "stop" : 1774326195375,
     "duration" : 6
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "84b607b73e90868f",
-  "name" : "Validar o endpoint POST /login",
+  "uid" : "ea9ec31247c64594",
+  "name" : "Validar o endpoint GET /users",
   "time" : {
-    "start" : 1768446197659,
-    "stop" : 1768446199668,
-    "duration" : 2009
+    "start" : 1774326195423,
+    "stop" : 1774326195430,
+    "duration" : 7
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "a1cf5bb4e7ca9a30",
+  "uid" : "93422e0ae34a5805",
   "name" : "Validar o endpoint GET /user/{id}",
   "time" : {
-    "start" : 1768446199802,
-    "stop" : 1768446199809,
-    "duration" : 7
+    "start" : 1774326195436,
+    "stop" : 1774326195441,
+    "duration" : 5
   },
   "status" : "broken",
   "severity" : "normal"
