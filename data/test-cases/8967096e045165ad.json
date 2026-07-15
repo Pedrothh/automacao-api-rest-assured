@@ -1,0 +1,200 @@
+{
+  "uid" : "8967096e045165ad",
+  "name" : "Validar o endpoint DELETE /inativar-user/{id}",
+  "fullName" : "src/test/resources/features/users.feature:30",
+  "historyId" : "a779f89aa901ec53a10f661044ba2245",
+  "time" : {
+    "start" : 1784092752454,
+    "stop" : 1784092752537,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Dado  que tenho um token válido",
+      "time" : {
+        "start" : 1784092752454,
+        "stop" : 1784092752455,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Dado  que o endpoint DELETE \"/inativar-user/{id}\" está disponível com o parâmetro 2",
+      "time" : {
+        "start" : 1784092752455,
+        "stop" : 1784092752455,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Quando  enviar a requisição DELETE",
+      "time" : {
+        "start" : 1784092752455,
+        "stop" : 1784092752528,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55606582ddfb8eb",
+        "name" : "Request",
+        "source" : "55606582ddfb8eb.html",
+        "type" : "text/html",
+        "size" : 922
+      }, {
+        "uid" : "1d81d7cfa9c8d61",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "1d81d7cfa9c8d61.html",
+        "type" : "text/html",
+        "size" : 1217
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Então  o código de resposta deve ser 200",
+      "time" : {
+        "start" : 1784092752528,
+        "stop" : 1784092752528,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a estrutura de resposta deve estar correta",
+      "time" : {
+        "start" : 1784092752528,
+        "stop" : 1784092752536,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "E  a mensagem da resposta deve ser \"Conta inativada com sucesso.\"",
+      "time" : {
+        "start" : 1784092752536,
+        "stop" : 1784092752537,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "users"
+  }, {
+    "name" : "host",
+    "value" : "runnervm5mmn9"
+  }, {
+    "name" : "thread",
+    "value" : "2323@runnervm5mmn9.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Users"
+  }, {
+    "name" : "story",
+    "value" : "Validar o endpoint DELETE /inativar-user/{id}"
+  }, {
+    "name" : "suite",
+    "value" : "Users"
+  }, {
+    "name" : "testClass",
+    "value" : "Validar o endpoint DELETE /inativar-user/{id}"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/automacao-api-rest-assured/automacao-api-rest-assured/src/test/resources/features/users.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.users_feature.Users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "63987234d9aa8e71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1784092752454,
+          "stop" : 1784092752537,
+          "duration" : 83
+        }
+      } ]
+    },
+    "tags" : [ "users" ]
+  },
+  "source" : "8967096e045165ad.json",
+  "parameterValues" : [ ]
+}

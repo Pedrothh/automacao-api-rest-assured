@@ -1,5 +1,5 @@
 [ {
-  "values" : [ "https://my-public-api-for-tests-production.up.railway.app/api-docs" ],
+  "values" : [ "https://my-public-api-for-tests.onrender.com/api-docs" ],
   "name" : "SWAGGER"
 }, {
   "values" : [ "TST" ],
