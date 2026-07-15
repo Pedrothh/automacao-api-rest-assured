@@ -18,7 +18,7 @@ public class Token {
 
         Login login = new Login();
         login.setUsername("admin");
-        login.setPassword("12345");
+        login.setPassword("admin1234");
 
         Response response = given()
                 .filter(new AllureRestAssured())
@@ -26,7 +26,7 @@ public class Token {
                 .header("Content-Type", "application/json")
                 .body(login)
                 .when()
-                .post("https://my-public-api-for-tests-production.up.railway.app/api/login")
+                .post("https://my-public-api-for-tests.onrender.com/api/login")
                 .then().log().all().extract().response();
 
         JsonObject obj = new Gson().fromJson(response.asString(), JsonObject.class);

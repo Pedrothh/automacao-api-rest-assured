@@ -12,7 +12,7 @@ Funcionalidade: Auth
     Dado que tenho um token válido
     E que o endpoint PUT "/update-password" está disponível
     Quando enviar a requisição PUT
-    Então o código de resposta deve ser 201
+    Então o código de resposta deve ser 200
     E a estrutura de resposta deve estar correta
     E a mensagem da resposta deve ser "Senha atualizada com sucesso."
 

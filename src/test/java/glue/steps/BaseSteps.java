@@ -25,7 +25,7 @@ import static io.restassured.RestAssured.given;
 public class BaseSteps {
 
     protected static final String token = Token.getAccessToken();
-    protected static final String baseURL = "https://my-public-api-for-tests-production.up.railway.app/api";
+    protected static final String baseURL = "https://my-public-api-for-tests.onrender.com/api";
 
     protected static Response response;
 
